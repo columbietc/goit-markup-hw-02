@@ -189,3 +189,38 @@ body {
 .footer-link:focus {
   color: rgba(200, 200, 200, 0.4);
 }
+
+/* ------------------PORTFOLIO----------------------- */
+.filtr-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bacground-color);
+}
+.filtr-btn:hover,
+.filtr-btn:focus {
+  color: var(--text-bacground-color);
+  background-color: var(--accent-text-color);
+}
+/* ---------------PROject---------- */
+.project-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.after-title-project {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
