@@ -13,6 +13,8 @@ color: #F5F4FA
   --text-bacground-color: #ffffff;
   --primary-bacground-color: #2f303a;
   --secondary-bacground-color: #f5f4fa;
+  --secondary-logo-color: #ffffff;
+  --first-logo-color: black;
 }
 
 body {
@@ -39,12 +41,17 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
-
+.accent {
+  color: var(--first-logo-color);
+}
 .header-link:hover,
 .header-link:focus,
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-text-color);
+}
+.header-link: {
+  color: red;
 }
 .header-link {
   font-weight: 500;
@@ -93,7 +100,9 @@ body {
 .hero-btn:focus {
   background-color: #188ce8;
 }
-
+.hero-btn {
+  cursor: pointer;
+}
 /* -------------ABOUT--------- */
 .about-title {
   font-weight: 700;
@@ -151,17 +160,19 @@ body {
 .footer {
   background-color: var(--primary-bacground-color);
 }
-.footer-title {
+.footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19x;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-text-color);
+  color: #2196f3;
+}
+.accent-white {
+  color: var(--secondary-logo-color);
 }
 .footer-location {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -169,7 +180,6 @@ body {
 }
 .footer-link {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
