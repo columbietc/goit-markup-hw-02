@@ -47,12 +47,12 @@ body {
 .header-link:hover,
 .header-link:focus,
 .header-tel:hover,
-.header-tel:focus {
+.header-tel:focus,
+.header-mail:hover,
+.header-mail:focus {
   color: var(--accent-text-color);
 }
-.header-link: {
-  color: red;
-}
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -178,15 +178,19 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-bacground-color);
 }
-.footer-link {
+.footer-mail,
+.footer-tel {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-link:hover,
-.footer-link:focus {
+
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
   color: rgba(200, 200, 200, 0.4);
 }
 
