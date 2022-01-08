@@ -186,12 +186,13 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.footer-location:hover,
+.footer-location:focus,
 .footer-mail:hover,
 .footer-mail:focus,
 .footer-tel:hover,
 .footer-tel:focus {
-  color: rgba(200, 200, 200, 0.4);
+  color: var(--accent-text-color);
 }
 
 /* ------------------PORTFOLIO----------------------- */
@@ -203,6 +204,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--secondary-bacground-color);
+}
+.filtr-btn {
+  cursor: pointer;
 }
 .filtr-btn:hover,
 .filtr-btn:focus {
